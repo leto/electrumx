@@ -347,6 +347,18 @@ class BitcoinCash(BitcoinMixin, Coin):
         'abc1.hsmiths.com t60001 s60002',
     ]
 
+class BitcoinGold(BitcoinMixin, Coin):
+    NAME            = "BitcoinGold"
+    SHORTNAME       = "BTG"
+    # TODO: update these to values after the fork block
+    TX_COUNT        = 243631085
+    TX_COUNT_HEIGHT = 479636
+    TX_PER_BLOCK    = 50
+    PEERS = [
+            # TODO: peer list
+    ]
+    # TODO: address format stuff
+
 
 class BitcoinSegwit(BitcoinMixin, Coin):
     NAME = "BitcoinSegwit"
