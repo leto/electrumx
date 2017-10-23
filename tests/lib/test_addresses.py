@@ -42,6 +42,12 @@ addresses = [
      "206168f5322583ff37f8e55665a4789ae8963532", "b8cb80b26e8932f5b12a7e"),
     (Zcash, "t3Zq2ZrASszCg7oBbio7oXqnfR6dnSWqo76",
      "a773db925b09add367dcc253c1f9bbc1d11ec6fd", "062d8515e50cb92b8a3a73"),
+    # normal pubkey address
+    (BitcoinGold, "GLppKe1sfPNDMysGSGuTjxoAsBcvvSYv5j",
+     "deadbeef322583ff37f8e55665a4789ae8963532", "b8cb80b26e8932f5b12bad"),
+    # p2sh address
+    (BitcoinGold, "gZq2ZrASszCg7oBbio7oXqnfR6dnSWqo76",
+     "c0decafe5b09add367dcc253c1f9bbc1d11ec6fd", "062d8515e50cb92b8a3bad"),
 ]
 
 
