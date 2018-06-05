@@ -1047,6 +1047,19 @@ class Koto(Coin):
         'electrum.kotocoin.info s t',
     ]
 
+class Verus(KomodoMixin, EquihashMixin, Coin):
+    NAME = "Verus"
+    SHORTNAME = "VRSC"
+    GENESIS_HASH = ('027e3758c3a65b12aa1046462b486d0a'
+                    '63bfa1beae327897f56c5cfb7daaae71')
+    NET = "mainnet"
+    TX_COUNT = 43838
+    TX_COUNT_HEIGHT = 21789
+    TX_PER_BLOCK = 2
+    RPC_PORT = 27486
+    REORG_LIMIT = 800
+    PEERS = []
+
 class Komodo(KomodoMixin, EquihashMixin, Coin):
     NAME = "Komodo"
     SHORTNAME = "KMD"
